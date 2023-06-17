@@ -146,7 +146,7 @@
     }
   },
   "variables": {
-    "WebAppImageName": "DOCKER|ragvsc/oai-embeddings",
+    "WebAppImageName": "DOCKER|bnrrag/oai-embeddings",
     "BlobContainerName": "documents",
     "QueueName": "doc-processing",
     "ClientKey": "[concat(uniqueString(guid(resourceGroup().id, deployment().name)), parameters('newGuid'), 'Tg2%')]"
@@ -416,7 +416,7 @@
             "allowedOrigins": [ "https://portal.azure.com" ]
           },
           "use32BitWorkerProcess": false,
-          "linuxFxVersion": "DOCKER|ragvsc/oai-batch:latest",
+          "linuxFxVersion": "DOCKER|bnrrag/oai-batch:latest",
           "appCommandLine": "",
           "alwaysOn": true
         },
