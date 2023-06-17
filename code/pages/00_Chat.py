@@ -1,4 +1,5 @@
 import streamlit as st
+import os
 from streamlit_chat import message
 from utilities.helper import LLMHelper
 
@@ -18,6 +19,11 @@ if 'chat_history' not in st.session_state:
     st.session_state['chat_history'] = []
 if 'source_documents' not in st.session_state:
     st.session_state['source_documents'] = []
+
+col1, col2, col3 = st.columns([1,2,1])
+with col1:
+    st.image(os.path.join('images','microsoft.png'))
+
 
 llm_helper = LLMHelper()
 
