@@ -8,6 +8,12 @@
         "description": "provide a 2-13 character prefix for all resources."
       }
     },
+    "StorageResourcePrefix": {
+      "type": "string",
+      "metadata": {
+        "description": "provide a 2-13 character prefix for all resources."
+      }
+    },
     "AzureCognitiveSearch": {
       "type": "string",
       "defaultValue": "[concat(parameters('ResourcePrefix'), '-cognitivesearch')]",
@@ -59,7 +65,7 @@
     },
     "StorageAccountName": {
       "type": "string",
-      "defaultValue": "[concat(parameters('ResourcePrefix'), '-storage')]",
+      "defaultValue": "[concat(parameters('StorageResourcePrefix'), 'storage')]",
       "metadata": {
         "description": "Name of Storage Account"
       }
