@@ -65,7 +65,7 @@
     },
     "StorageAccountName": {
       "type": "string",
-      "defaultValue": "kombiadlsenterprisegptfiles",
+      "defaultValue": "kombienterprisegptfiles",
       "metadata": {
         "description": "Name of Storage Account"
       }
