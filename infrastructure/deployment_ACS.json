@@ -65,7 +65,7 @@
     },
     "StorageAccountName": {
       "type": "string",
-      "defaultValue": "[concat(parameters('StorageResourcePrefix'), 'storage')]",
+      "defaultValue": "kombiadlsenterprisegptfiles",
       "metadata": {
         "description": "Name of Storage Account"
       }
