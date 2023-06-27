@@ -10,7 +10,7 @@
     },
     "AzureCognitiveSearch": {
       "type": "string",
-      "defaultValue": "[concat(parameters('ResourcePrefix'), '-search')]",
+      "defaultValue": "[concat(parameters('ResourcePrefix'), '-cognitivesearch')]",
       "metadata": {
         "description": "Azure Cognitive Search Resource"
       }
@@ -59,14 +59,14 @@
     },
     "StorageAccountName": {
       "type": "string",
-      "defaultValue": "[concat(parameters('ResourcePrefix'), 'str')]",
+      "defaultValue": "[concat(parameters('ResourcePrefix'), '-storage')]",
       "metadata": {
         "description": "Name of Storage Account"
       }
     },
     "WebsiteName": {
       "type": "string",
-      "defaultValue": "[concat(parameters('ResourcePrefix'), '-site')]",
+      "defaultValue": "[concat(parameters('ResourcePrefix'), '-website')]",
       "metadata": {
         "description": "Name of Web App"
       }
