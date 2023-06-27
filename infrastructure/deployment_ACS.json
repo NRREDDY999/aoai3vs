@@ -120,7 +120,7 @@
     },
     "OpenAIEngine": {
       "type": "string",
-      "defaultValue": "text-davinci-003",
+      "defaultValue": "kombi-oai-text-davinci",
       "metadata": {
         "description": "OpenAI Engine"
       }
@@ -134,14 +134,14 @@
     },
     "OpenAIEmbeddingsEngineDoc": {
       "type": "string",
-      "defaultValue": "text-embedding-ada-002",
+      "defaultValue": "kombi-oai-text-embedding-ada",
       "metadata": {
         "description": "OpenAI Embeddings Engine for Documents"
       }
     },
     "OpenAIEmbeddingsEngineQuery": {
       "type": "string",
-      "defaultValue": "text-embedding-ada-002",
+      "defaultValue": "kombi-oai-text-embedding-ada",
       "metadata": {
         "description": "OpenAI Embeddings Engine for Queries"
       }
