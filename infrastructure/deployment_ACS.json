@@ -175,7 +175,7 @@
       "type": "Microsoft.CognitiveServices/accounts",
       "apiVersion": "2022-12-01",
       "name": "[parameters('FormRecognizerName')]",
-      "location": "[resourceGroup().location]",
+      "location": "East US",
       "sku": {
         "name": "S0"
       },
@@ -196,7 +196,7 @@
       "type": "Microsoft.CognitiveServices/accounts",
       "apiVersion": "2022-12-01",
       "name": "[parameters('TranslatorName')]",
-      "location": "[resourceGroup().location]",
+      "location": "East US",
       "sku": {
         "name": "S1"
       },
